@@ -1,0 +1,13 @@
+{
+  "name": "primesoftwaredevelopment/symfony-preferences",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+	"symfony/orm-pack": "^1.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "PrimeSoftware\\Service\\": "src\\Service"
+	}
+  }
+}
